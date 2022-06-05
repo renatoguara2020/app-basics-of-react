@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+
 
 const App = () => {
   return (
-    <div>
+    <Fragment>
       <h1>Hello World no App com Components</h1>
-    </div>
+      <p>Este é um parágrafo</p>
+    </Fragment>
   )
 }
 
