@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import PropTypes from 'prop-types';
 import Card from './shared/Card';
 
 
@@ -16,3 +16,8 @@ export const FeedbackItem = ({item}) => {
 
   )
 }
+FeedbackItem.propTypes = {
+
+    item: PropTypes.object.isRequired,
+}
+
