@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const FeedbackData = [
     {
@@ -19,4 +19,4 @@ const FeedbackData = [
   ]
   
 
-export default FeedbackData
+export default FeedbackData;
