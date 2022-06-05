@@ -1,5 +1,5 @@
 import React, {Fragment, useState} from 'react'
-import { FeedbackItem } from './components/FeedbackItem.jsx';
+import FeedbackList from './components/FeedbackList';
 import Header from './components/Header.jsx';
 import FeedbackData from './data/FeedbackData.js';
 
@@ -11,7 +11,7 @@ const App = () => {
    <Fragment> 
         <Header/>
         <div className="container">
-          <FeedbackItem />
+          <FeedbackList   feedback={feedback}/>
         </div>
     </Fragment>    
   )
