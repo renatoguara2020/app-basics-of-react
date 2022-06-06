@@ -6,6 +6,7 @@ const FeeddbackForm = () => {
   const [text, setText] = useState('');
 
   const handleTextChange = (e) => {
+    //e.preventDefault();
      setText(e.target.value)
   }
   return (
