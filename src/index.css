@@ -183,7 +183,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rebeccapurple;
+  color: rgb(66, 6, 126);
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
