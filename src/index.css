@@ -43,7 +43,7 @@ header {
 
 .card.reverse {
   background-color: rgba(0, 0, 0, 0.4);
-  color: #fff;
+  color: rgb(166, 55, 55);
 }
 
 .card h2 {
@@ -62,14 +62,14 @@ header {
 .rating li,
 .num-display {
   position: relative;
-  background: #f4f4f4;
+  background: #ac2929;
   width: 50px;
   height: 50px;
   padding: 10px;
   text-align: center;
   border-radius: 50%;
   font-size: 19px;
-  border: 1px #eee solid;
+  border: 1px rgb(192, 123, 123) solid;
   transition: 0.3s;
 }
 
@@ -87,7 +87,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #b11c46;
+  background: #aa1c44;
   color: #fff;
 }
 
@@ -96,14 +96,14 @@ header {
 }
 
 [type='radio']:checked ~ label {
-  background: #ff6a95;
+  background: #882541;
   color: #fff;
 }
 
 .input-group {
   display: flex;
   flex-direction: row;
-  border: 1px solid #ccc;
+  border: 1px solid rgb(208, 36, 36);
   padding: 8px 10px;
   border-radius: 8px;
 }
@@ -170,7 +170,7 @@ input:focus {
 }
 
 .btn:disabled {
-  background-color: #cccccc;
+  background-color: #873636;
   color: #333;
   cursor: auto;
 }
@@ -183,7 +183,7 @@ input:focus {
 .message {
   padding-top: 10px;
   text-align: center;
-  color: rgb(66, 6, 126);
+  color: rgb(91, 16, 165);
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
@@ -196,12 +196,12 @@ input:focus {
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
 .about-link a {
-  color: #fff;
+  color: rgb(107, 64, 64);
   cursor: pointer;
 }
 
 .about-link a:hover {
-  color: #ff6a95;
+  color: #661d32;
 }
 
 .about h1 {
